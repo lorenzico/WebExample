@@ -1,0 +1,57 @@
+.centrar{
+
+    display: flex;
+
+    justify-content: center ;
+
+}
+
+img{
+
+    width: 300px;
+
+    height: 300px;
+
+}
+
+ul.galeria li{
+
+    float: left;
+
+    margin: 80px 10px;
+
+    border: 3px solid red;
+
+    list-style: none;
+
+}
+
+ul.galeria li a img{
+
+    float: left;
+
+    width: 200px;
+
+    display: block;
+
+    list-style: none;
+
+    margin-left: auto;
+
+}
+
+ul.galeria li a:hover img{
+
+    box-shadow: 4px 4px 10px blue;
+
+    transform: scale(1.5);
+    /* Propiedad transform: que me permite transofrmar y escalar la imagen a un tamaño de escala que yo quiero... En mi caso, escala 1.5 */
+
+
+
+}
+
+
+
+
+
